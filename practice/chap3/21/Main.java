@@ -30,7 +30,7 @@ public class Main {
             case 9, 10, 11 -> "Autumn";
             default -> {
                 System.out.println("N/A");
-                yield "N/A";
+                yield "N/A"; // 新たにブロックを作るならばyieldが必要
             }
         };
         System.out.println(month + " is " + val);
