@@ -16,6 +16,8 @@ public class Main {
         System.out.println("List<String> list1: " + list1);
         // list1.add("Violin"); list1.remove(2);
 
+
+
         // of：変更不可のイミュータブルなリスト
         List<Double> list3 = List.of(1.0, 2.0, 3.0);
         // list3.set(0, 0.0);
